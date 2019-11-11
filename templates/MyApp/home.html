@@ -1,0 +1,398 @@
+<!DOCTYPE HTML>
+{%load staticfiles%}
+<html>
+<title>
+</title>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href = "{%static 'CSS/MyFile.css'%}" rel = "stylesheet"/>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<style>
+li{
+list-style-type:none;
+}
+a{
+text-decoration: none;
+color:black;
+}
+a:hover{
+text-decoration:none;
+color:black;
+}
+.w3-input{padding:8px;display:block;border:none;border-bottom:1px solid #ccc;width:100%}
+.collapsibl {
+  background-color: #777;
+  color: black;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 18px;
+  font-style: Arial;
+  box-shadow:15px 15px 15px #eee;
+  z-index:15px;
+}
+.collapsibl:hover {
+  color: pink;
+  font-size:24px;
+}
+
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #f1f1f1;
+}
+</style>
+</head>
+<body>
+<nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+  <img src = "{%static 'images/logo.jpeg'%}" width="5%" alt = "logo">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+
+<!--main container-->
+<div class="container-fluid" style="background-image:url('slider.jpeg');width:100%; background-attachment:fixed;background-size:cover;">
+<h5 class=" x-auto mb-3 text-center text-upercase font-weight-bold" style="text-color:white;color:white;padding:225px;">SBSSTC ALUMNI ASOCIATION</h5>
+
+<!--box tab-->
+
+<div class="row" style="color:white;">
+	<div class="p-5 mb-0 mx-auto col-sm-4 bg-danger">
+		<h4>OUR MISSION</h4>
+		<P>our mission</P>
+	</div>
+	<div class="p-5 mb-0 mx-auto col-sm-4 bg-primary">
+		<h4>OUR Events</h4>
+		<P>our mission</P>
+	</div>
+	<div class="p-5 mb-0 mx-auto col-sm-4 bg-info">
+		<h4>GET INVOLVED</h4>
+		<P>our mission</P>
+	</div>
+</div></div>
+
+
+<!--Message Jumbotron-->
+<div class="jumbotron mb-0">
+<h2>Directer Message</h2>
+<div class="container">
+	<img class="imgCSE" src="SunnyCSE.jpg" width="12%">
+ 
+   <p class="text-right">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+   Lorem ipsum dolor sit amet, consectetuer adipiscing elit.Lorem ipsum dolor sit amet,Lorem ipsum dolor sit amet, consectetuer adipiscing elit.Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+   Lorem ipsum dolor sit amet, consectetuer adipiscing elit.Lorem ipsum dolor sit amet,Lorem ipsum dolor sit amet, consectetuer adipiscing elit.Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+   Lorem ipsum dolor sit amet, consectetuer adipiscing elit.Lorem ipsum dolor sit amet,Lorem ipsum dolor sit amet, consectetuer adipiscing elit.Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+   Lorem ipsum dolor sit amet, consectetuer adipiscing elit.Lorem ipsum dolor sit amet,Lorem ipsum dolor sit amet, consectetuer adipiscing elit.Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+   Lorem ipsum dolor sit amet, consectetuer adipiscing elit.Lorem ipsum dolor sit amet,Lorem ipsum dolor sit amet, consectetuer adipiscing elit.Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+   Lorem ipsum dolor sit amet, consectetuer adipiscing elit.Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+	</div>
+</div>
+
+
+<div class="jumbotron mb-0">
+<h2>President Message</h2>
+<div class="container">
+	<img class="imgCSE float-left" src="SunnyCSE.jpg" width="12%">
+ 
+   <p class="text-center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+   Lorem ipsum dolor sit amet, consectetuer adipiscing elit.Lorem ipsum dolor sit amet,Lorem ipsum dolor sit amet, consectetuer adipiscing elit.Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+   Lorem ipsum dolor sit amet, consectetuer adipiscing elit.Lorem ipsum dolor sit amet,Lorem ipsum dolor sit amet, consectetuer adipiscing elit.Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+   Lorem ipsum dolor sit amet, consectetuer adipiscing elit.Lorem ipsum dolor sit amet,Lorem ipsum dolor sit amet, consectetuer adipiscing elit.Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+   Lorem ipsum dolor sit amet, consectetuer adipiscing elit.Lorem ipsum dolor sit amet,Lorem ipsum dolor sit amet, consectetuer adipiscing elit.Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+   Lorem ipsum dolor sit amet, consectetuer adipiscing elit.Lorem ipsum dolor sit amet,Lorem ipsum dolor sit amet, consectetuer adipiscing elit.Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+   Lorem ipsum dolor sit amet, consectetuer adipiscing elit.Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+	</div>
+	
+</div>
+
+<!--quotes Container-->
+<div class="container-fluid p-5 mx-auto mb-0 bg-primary text-center">
+	<div class="container text-white p-5 mb-3" style="font-size:1.75rem;">
+	<blockquote>" I am no bird; and no net ensnares me; I am a free
+		human being with an independent will." </blockquote>
+	<h4>Charlotte Bronte, Jane Eyre</h4>
+	</div>
+</div>
+
+
+<!--Upcoming Events Container-->
+<div class="container-fluid">
+	<div class="row  mb-0 bg-dark">
+		<div class="w-100 p-5 text-center bg-light">
+			<h1>Upcoming Events</h1>
+			<hr class="w-100">
+			<div class="container">
+					<button class="collapsibl w-100 bg-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit __1</button>
+						<div class="content">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+						</div>
+					<hr class="w-100">	
+					<button class="collapsibl w-100 bg-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit __2</button>
+						<div class="content">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+						</div>
+					<hr class="w-100">
+					<button class="collapsibl w-100 bg-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit __3</button>
+						<div class="content">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+						</div>
+					<hr class="w-100">
+					<button class="collapsibl w-100 bg-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit __4</button>
+						<div class="content">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+						</div>
+					<hr class="w-100">
+					<button class="collapsibl w-100 bg-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit __5</button>
+						<div class="content">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+						</div>
+					<hr class="w-100">
+					<button class="collapsibl w-100 bg-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit __6</button>
+						<div class="content">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+						</div>
+					<hr class="w-100">
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+<!--quotes Container-->
+<div class="container-fluid p-5 mx-auto mb-0 bg-primary text-center">
+	<div class="container text-white p-5 mb-3" style="font-size:1.75rem;">
+	<blockquote>" I am no bird; and no net ensnares me; I am a free
+		human being with an independent will." </blockquote>
+	<h4>Charlotte Bronte, Jane Eyre</h4>
+	</div>
+</div>
+
+
+<!--Latest News Card Container-->
+<div class="container-fluid"><br><br>
+	<h1 class="text-center">Latest News</h1>
+	<hr class="w-100">
+	<div  class="p-5 mb-2 bg-white">
+		<div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+			<div class="carousel-inner">
+				<!--1-->
+				<div class="carousel-item active" data-interval="10000">
+				<div class="container-fluid">
+					<div class="card-group">
+						<div class="card" style="width: 18rem;margin-left:5%;margin-right:5%;">
+							<img src="ext[1].jpg" class="card-img-top" alt="...">
+							<div class="card-body">
+								<p class="card-text">1Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+								<a href="#">Read More</a>
+							</div>
+						</div>
+						<div class="card" style="width: 18rem;margin-left:5%;margin-right:5%;">
+							<img src="ext[1].jpg" class="card-img-top" alt="...">
+							<div class="card-body">
+								<p class="card-text">2Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+								<a href="#">Read More</a>
+							</div>
+						</div>
+						<div class="card" style="width: 18rem;margin-left:5%;margin-right:5%;">
+							<img src="ext[1].jpg" class="card-img-top" alt="...">
+							<div class="card-body">
+								<p class="card-text">3Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+								<a href="#">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				</div>
+				<!--2-->
+				<div class="carousel-item" data-interval="2000">
+				<div class="container-fluid">
+					<div class="card-group">
+						<div class="card" style="width: 18rem;margin-left:5%;margin-right:5%;">
+							<img src="ext[1].jpg" class="card-img-top" alt="...">
+							<div class="card-body">
+								<p class="card-text">4Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+								<a href="#">Read More</a>
+							</div>
+						</div>
+						<div class="card" style="width: 18rem;margin-left:5%;margin-right:5%;">
+							<img src="ext[1].jpg" class="card-img-top" alt="...">
+							<div class="card-body">
+								<p class="card-text">5Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+								<a href="#">Read More</a>
+							</div>
+						</div>
+						<div class="card" style="width: 18rem;margin-left:5%;margin-right:5%;">
+							<img src="ext[1].jpg" class="card-img-top" alt="...">
+							<div class="card-body">
+								<p class="card-text">6Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+								<a href="#">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				</div>
+				<!--3-->
+				<div class="carousel-item">
+				<div class="container-fluid">
+				<div class="card-group">
+						<div class="card" style="width: 18rem;margin-left:5%;margin-right:5%;">
+							<img src="ext[1].jpg" class="card-img-top" alt="...">
+							<div class="card-body">
+								<p class="card-text">7Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+								<a href="#">Read More</a>
+							</div>
+						</div>
+						<div class="card" style="width: 18rem;margin-left:5%;margin-right:5%;">
+							<img src="ext[1].jpg" class="card-img-top" alt="...">
+							<div class="card-body">
+								<p class="card-text">8Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+								<a href="#">Read More</a>
+							</div>
+						</div>
+						<div class="card" style="width: 18rem;margin-left:5%;margin-right:5%;">
+							<img src="ext[1].jpg" class="card-img-top" alt="...">
+							<div class="card-body">
+								<p class="card-text">9Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+								<a href="#">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			</div>
+			<a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
+				<span class="carousel-control-prev-icon bg-secondary w-25 h-25" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+				<span class="carousel-control-next-icon bg-secondary w-25 h-25" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
+		</div>
+	</div>
+</div>
+
+
+<!--Jion Us Container-->
+<div class="container-fluid">
+<div class="row">
+<div class="col-sm-5 mb-0 text-center text-white" style="padding:180px;background-color:#26457A;">
+<h1>JOIN US</h1>
+<p>Empower our Community</p>
+<button type="button" class="bg-danger btn text-white">CONTRIBUTE NOW</button>
+</div>
+<div class="col-sm-7 mx-auto mb-0 bg-primary text-center" style="background-image:url('Flat-Mountains.svg');">
+<blockquote class="text-white"><br><br><br><h2>" I am no bird; and no net ensnares me; I am a free
+		human being with an independent will." </h2></blockquote>
+</div>
+</div></div>
+
+
+
+
+<!--Upcoming Events Container
+<div class="container-fluid p-5 mx-auto mb-0 bg-primary text-center">
+	<div class="container text-white p-5 mb-3" style="font-size:1.75rem;">
+	<blockquote>" I am no bird; and no net ensnares me; I am a free
+		human being with an independent will." </blockquote>
+	<h4>Charlotte Bronte, Jane Eyre</h4>
+	</div>
+</div-->
+
+
+
+
+<!-- footer container-->
+<div class="container-fluid">
+	<div class="row" style="font-family:Arial;">
+		<div class="col-sm-4 bg-light p-5">
+			<h5>About SBSSTC</h5><br>
+			<p>Shaheed Bhagat Singh College of Engineering & Technology was established in 1995. 
+				It is affiliated to PTU, Jalandhar and approved by AICTE, New Delhi. 
+				It is located in Ferozepur district in the Indian state of Punjab.</p>
+			<p><b>Email:</b> info@mysite.com</p>
+			<p><b>Phone:</b> 123-456-7890</p>
+			<p><b>Registered Charity:</b> 12345-67</p>
+		</div>
+		<div class="col-sm-4 p-5">
+			<h5>JOIN Us</h5><br>
+			<form>
+				<input type="email" placeholder="Enter Your Email Here" class="w3-input" style="width:100%;"></input><br><br>
+				<button type="button " class="btn" style="width:100%;background-color:rgba(236, 94, 135, 1);color:white;">Sign Up Now</button>
+			</form>
+		</div>
+		<div class="col-sm-4 bg-light p-5">
+			<h5>Quik LInks</h5><br>
+			<ul>
+			<li><p><a href="#">Home</a></p></li>
+			<li><p><a href="#">About</a></p></li>
+			<li><p><a href="#">Events</a></p></li>
+			<li><p><a href="#">News</a></p></li>
+			<li><p><a href="#">Support</a></p></li>
+			<li><p><a href="#">Contribute</a></p></li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+
+
+
+<!--footer-->
+<footer style="background-color:#26457A;text-align:center;color:white;padding:1px;">
+<p>@copyright | 2019  </p>
+</footer>
+
+
+<script>
+var coll = document.getElementsByClassName("collapsibl");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+
+
+
+
+</body>
+</html>
