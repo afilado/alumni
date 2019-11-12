@@ -21,7 +21,10 @@ from webapp import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('home/', views.my_home),
+    path('', views.my_home),
+    path('accounts/', include('django.contrib.auth.urls')),
+    path('logout/', views.logout),
+    path('register/', views.registration_view),
 ]
 
 from django.contrib.staticfiles.urls import staticfiles_urlpatterns

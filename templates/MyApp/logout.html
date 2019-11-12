@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+{% extends 'MyApp/base.html' %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+</head>
+{% block body_block %}
+<body>
+<div class="jumbotron">
+    <div class = "container">
+        <h1>
+            Thanks for visiting banking website
+        </h1>
+        <h2>
+            To login again, click
+        </h2>
+        <a href="/accounts/login" class="btn btn-success">Login</a>
+    </div>
+</div>
+</body>
+{% endblock %}
+</html>
